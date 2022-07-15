@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack ./src/index.js -p",
-    "watch": "webpack ./src/index.js -d --devtool eval-sourse-map -w"
+    "watch": "webpack ./src/index.js -d --devtool eval-source-map -w"
   },
   "keywords": [],
   "author": "",
