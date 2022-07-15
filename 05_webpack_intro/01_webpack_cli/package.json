@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack ./src/index.js -p",
-    "watch": "webpack ./src/index.js -d --devtool eval-source-map -w"
+    "build:scripts": "webpack ./src/index.js -p",
+    "watch:scripts": "webpack ./src/index.js -d --devtool eval-source-map -w"
   },
   "keywords": [],
   "author": "",
